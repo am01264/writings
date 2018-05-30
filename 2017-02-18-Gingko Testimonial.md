@@ -1,7 +1,7 @@
 ---
+layout: post
 title: Testimonial for Gingko
 description: After years of head-banging frustration with writing of any length, I've found a way to enjoy writing. 
-date:  20170218T0019Z
 ---
 
 [//]: # "What was the obstacle that would have prevented you from buying?"

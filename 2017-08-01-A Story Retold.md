@@ -1,7 +1,7 @@
 ---
+layout: post
 title: A Story Retold
 desciption: Exploring changes of perspective in my own life
-date: 20170801Z
 ---
 
 # A Story Retold

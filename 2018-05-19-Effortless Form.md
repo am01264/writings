@@ -1,7 +1,7 @@
 ---
+layout: post
 title: Effortless Form
 description: ...or how I write
-date: 20180519Z
 ---
 
 When you can forget about structure, form can take on a completely different meaning.

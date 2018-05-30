@@ -1,7 +1,7 @@
 ---
+layout: post
 title: Whats In A Word?
 description: The power of language and speech
-date: 20180528Z
 ---
 
 The power of a good speech can rouse me, but an oustanding speech astounds me.

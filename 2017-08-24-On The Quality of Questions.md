@@ -1,7 +1,7 @@
 ---
+layout: post
 title: On The Quality of Questions
 description: ...and asking better questions
-date: 20170824Z
 ---
 
 # On The Quality of Questions

@@ -1,7 +1,7 @@
 ---
+layout: post
 title: Removing Boulders
 description: Ever wandered what great feels like?
-date: 20171118Z 
 ---
 # Boulder Removal
 
