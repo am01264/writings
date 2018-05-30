@@ -11,8 +11,11 @@ What I found though, completely transformed the way I write, and the way I look 
 Being able to get a sense of the whole text at a glance, while you're writing a specific part allows me to write with all of the context. I no longer need to ask "What did I say there?", it's in front of me, or a few key-presses away.
 
 Other benefits include:
+
  - Starting with the seed of an outline, and then fleshing it out from there is the most effortless way of writing I have ever encountered. This app takes this idea and makes it 3-4 times easier still.
+
  - Simple navigation allows me to jump and dive across the text as fast as the ideas flow.
+
  - No longer feeling scared by an empty page. I'm actually excited to get started because it's so easy.
 
 I would recommend the Gingko app wholeheartedly to anyone who is intimidated when writing large documents, as it's completely changed my experience of writing from painful to enjoyable.
