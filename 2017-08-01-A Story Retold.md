@@ -4,9 +4,7 @@ title: A Story Retold
 desciption: Exploring changes of perspective in my own life
 ---
 
-# A Story Retold
-
-How can I retell my life's story?
+How can I retell my life's story? Exploring changes of perspective in my own life
 
 Where has current thinking majorly diverted from past thought?
 
