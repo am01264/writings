@@ -3,7 +3,8 @@ layout: post
 title: Removing Boulders
 description: Ever wandered what great feels like?
 ---
-# Boulder Removal
+
+Ever wandered what great feels like? An exercise in making an advert for wellness.
 
 ## About Me
 

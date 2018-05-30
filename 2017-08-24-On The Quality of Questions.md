@@ -4,7 +4,6 @@ title: On The Quality of Questions
 description: ...and asking better questions
 ---
 
-# On The Quality of Questions
 ...and asking better questions
 
 Extracted from a conversation with a friend on Thursday 24 August 2017 and later edited.

@@ -4,11 +4,7 @@ title: A Thank You Letter For The Hospital
 description: Having had an excellent time with recent surgery, I decided to send them a letter of gratitude, with a few stories thrown in.
 ---
 
-17th February 2017
-
 Dear DTC Team,
-
-[//]: # "Why I'm Writing"
 
 I'm writing to you today to say thanks. 
 

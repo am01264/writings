@@ -4,8 +4,6 @@ title: Testimonial for Gingko
 description: After years of head-banging frustration with writing of any length, I've found a way to enjoy writing. 
 ---
 
-[//]: # "What was the obstacle that would have prevented you from buying?"
-
 At first I thought $4.99/month seemed too expensive for a notepad app.
 
 [//]: # "What did you find as a result of buying this product/service"
