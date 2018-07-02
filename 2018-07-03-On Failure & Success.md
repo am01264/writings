@@ -1,3 +1,9 @@
+---
+layout: post
+title: On Failure & Success
+description: An new take on old words
+---
+
 # On Failure & Success
 
 Today, I've opened my eyes to a new way of seeing, that reminds me of the youthful exploration and sense of fun I once enjoyed.
