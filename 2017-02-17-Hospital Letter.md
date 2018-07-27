@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Thank You Letter For The Hospital 
-description: Having had an excellent time with recent surgery, I decided to send them a letter of gratitude, with a few stories thrown in.
+description: "Having had an excellent time with recent surgery, I decided to send them a letter of gratitude, with a few stories thrown in"
 ---
 
 Dear DTC Team,

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Testimonial for Gingko
-description: After years of head-banging frustration with writing of any length, I've found a way to enjoy writing. 
+description: "After years of head-banging frustration with writing of any length, I've found a way to enjoy writing" 
 ---
 
 At first I thought $4.99/month seemed too expensive for a notepad app.
