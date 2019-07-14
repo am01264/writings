@@ -15,6 +15,7 @@ He'd not long had a car crash. He knew who it was, and he'd had time to heal the
 > "Yeah, I've studied psychology for years"
 
 ...and then he talked
+
  - He'd struggled for a few days just getting used to driving again
  - After that, he then tried passengers again
  - ...and now, he says he's very concerned about the safety of his passengers, especially young children.

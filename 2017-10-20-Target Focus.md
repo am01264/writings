@@ -2,6 +2,7 @@
 layout: post
 title: Target Focus
 description: Random musings on the future
+published: false
 ---
 
 I had an epiphany today. A moment of truth. A kernel from deep down inside.

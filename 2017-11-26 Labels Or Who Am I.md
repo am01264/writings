@@ -1,6 +1,7 @@
 ---
 title: Labels; or Who Am I
 desc: A poor mans attempt to distinguish himself by using words.
+published: false
 ---
 
 On Paper, You Might See Me As:
