@@ -1,5 +1,5 @@
 ---
-layout: post
+published: true
 title: The Best UI Is Your Imagination
 description: Imagine for a moment, you're way high in the sky... stood upon a white fluffy cloud.
 ---

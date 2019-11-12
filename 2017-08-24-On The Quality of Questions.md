@@ -1,5 +1,5 @@
 ---
-layout: post
+published: true
 title: On The Quality of Questions
 description: ...and asking better questions
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+published: true
 title: The Interface
 description: Dreaming of better technology, and the bitterness of reality as it stands.
 ---

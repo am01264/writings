@@ -1,5 +1,5 @@
 ---
-layout: post
+published: true
 title: Emotional Needs Audit
 description: Completely private, with full explanation
 ---

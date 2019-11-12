@@ -1,5 +1,5 @@
 ---
-layout: post
+published: true
 title: On Failure & Success
 description: An new take on old words
 ---

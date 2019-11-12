@@ -1,5 +1,5 @@
 ---
-layout: post
+published: true
 title: Whats In A Word?
 description: The power of language and speech
 ---

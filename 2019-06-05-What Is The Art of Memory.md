@@ -1,6 +1,6 @@
 ---
 title: What Is The Art of Memory?
-layout: post
+published: true
 ---
 
 It begins in Classical Greece, in a vast banquet hall sealed in marble. Guests are scattered around a great table, jovially chatting together.

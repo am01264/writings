@@ -1,5 +1,5 @@
 ---
-layout: post
+published: true
 title: Weekend Development Fun
 description: I've just spent the better part of this weekend having fun with a new app called Automate
 ---

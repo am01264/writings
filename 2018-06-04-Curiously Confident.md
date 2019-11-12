@@ -1,6 +1,6 @@
 ---
 title: The Power of a Curious Confidence
-layout: post
+published: true
 ---
 
 Many years ago, I was a self-improvement junkie. I felt I had to be everything I could possibly be, or nothing. I measured myself against a standard no man could adopt for a day... let alone weeks or months.

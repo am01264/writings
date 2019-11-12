@@ -1,5 +1,5 @@
 ---
-layout: post
+published: true
 title: Money Is Not A Motivator
 description: Is profit your motivator?.. or might there be something more fundamental?
 ---

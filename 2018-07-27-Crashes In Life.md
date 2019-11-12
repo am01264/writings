@@ -1,5 +1,5 @@
 ---
-layout: post
+published: true
 title: Crashes In Life
 description: When extreme events bring us back together.
 ---

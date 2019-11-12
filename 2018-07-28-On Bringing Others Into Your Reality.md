@@ -1,5 +1,5 @@
 ---
-layout: post
+published: true
 title: On Bringing Others Into Your Reality
 description: Mulling on a different way of being
 ---

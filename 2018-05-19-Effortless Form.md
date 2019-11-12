@@ -1,5 +1,5 @@
 ---
-layout: post
+published: true
 title: Effortless Form
 description: ...or how I write
 ---
