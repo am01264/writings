@@ -10,9 +10,9 @@ Somebody who says, I like you... and somebody who understands a part of you.
 
 I have friends by occupation, the most common bond we have is that of struggle and cynicism against the might of the ivory towers... Not quite Lord of the Rings, but the gossip would have you believing it.
 
-I have friends by interest, whether that be kinky friends whose common interest is so far outside the normal realm we form a tribe of our own[^1]. 
+I have friends by interest, whether that be kinky friends whose common interest is so far outside the normal realm we form a tribe of our own<sup>1</sup>. 
 
-[^1]: To be clear, not a well-defined cultural scene but more a bunch of individuals whose lives overlap in some way
+<sup>1</sup>: To be clear, not a well-defined cultural scene but more a bunch of individuals whose lives overlap in some way
 
 Sometimes we even make friends out of common enemies. 
 
