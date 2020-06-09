@@ -4,17 +4,7 @@ title: When Lips Are Sealed
 description: Speaking about common humanity in inhuman times.
 ---
 
-<figure>
-
-![Photo by Jackson Simmer on Unsplash](jackson-simmer-1grn4afhiEE-unsplash.jpg)
-
-<figcaption>
-
-Photo by [Jackson Simmer on Unsplash](https://unsplash.com/photos/1grn4afhiEE)
-
-</figcaption>
-
-</figure>
+![Boy with tape over mouth](jackson-simmer-1grn4afhiEE-unsplash.jpg)
 
 Rewind to 13-years ago, I'm reading a curiously worn paperback... the story of a man, who refused to watch the news...
 
@@ -154,6 +144,7 @@ Andrew McAuley
 
 ---
 
+Photo by [Jackson Simmer on Unsplash](https://unsplash.com/photos/1grn4afhiEE)
 
 
 <b id="f1">1</b> As an aside, Deborah Serani Psy.D. did a well researched piece on this topic, [Understanding Fear-based Media](https://www.psychologytoday.com/us/blog/two-takes-depression/201106/if-it-bleeds-it-leads-understanding-fear-based-media) (2011). [↩](#a1)
