@@ -4,7 +4,7 @@ title: When Lips Are Sealed
 description: Speaking about common humanity in inhuman times.
 ---
 
-![Boy with tape over mouth](jackson-simmer-1grn4afhiEE-unsplash.jpg)
+![Boy with tape over mouth](/res/jackson-simmer-1grn4afhiEE-unsplash.jpg)
 
 Rewind to 13-years ago, I'm reading a curiously worn paperback... the story of a man, who refused to watch the news...
 
