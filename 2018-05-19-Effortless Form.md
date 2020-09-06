@@ -2,6 +2,8 @@
 published: true
 title: Effortless Form
 description: ...or how I write
+tags:
+   - Opinion
 ---
 
 When you can forget about structure, form can take on a completely different meaning.

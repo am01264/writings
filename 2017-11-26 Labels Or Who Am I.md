@@ -1,6 +1,8 @@
 ---
 title: Labels; or Who Am I
 desc: A poor mans attempt to distinguish himself by using words.
+tags: 
+    - Opinion
 published: false
 ---
 

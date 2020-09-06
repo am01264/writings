@@ -2,6 +2,8 @@
 published: true
 title: Emotional Needs Audit
 description: Completely private, with full explanation
+tags: 
+    - Reviews & Highlights
 ---
 
 Just like plants, we need nourishment and the right environment. For humans, that means food, water and more... but there are also emotional needs we have. When these are not met, we feel it. 

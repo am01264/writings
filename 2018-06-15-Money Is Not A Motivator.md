@@ -2,6 +2,8 @@
 published: true
 title: Money Is Not A Motivator
 description: Is profit your motivator?.. or might there be something more fundamental?
+tags: 
+    - Opinion
 ---
 
 Is profit your motivator?.. or might there be something more fundamental?

@@ -1,5 +1,7 @@
 ---
 title: What Is The Art of Memory?
+tags: 
+    - Opinion
 published: true
 ---
 

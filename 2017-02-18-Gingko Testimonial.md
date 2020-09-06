@@ -1,5 +1,7 @@
 ---
 published: true
+tags: 
+    - Reviews & Highlights
 title: Testimonial for Gingko
 description: "After years of head-banging frustration with writing of any length, I've found a way to enjoy writing" 
 ---

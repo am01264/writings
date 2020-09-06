@@ -2,6 +2,8 @@
 published: true
 title: On Bringing Others Into Your Reality
 description: Mulling on a different way of being
+tags: 
+    - Opinion
 ---
 
 I was walking down a well trodden path, natures grasses and plants flowing in the wind... a keilidoscopic treasure trove of vivid purples, deep blue hues and a wonderful feeling of serenity. I felt deeply relaxed, and almost a part of the breeze itself.

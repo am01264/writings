@@ -2,6 +2,8 @@
 published: true
 title: Whats In A Word?
 description: The power of language and speech
+tags: 
+    - Opinion
 ---
 
 The power of a good speech can rouse me, but an oustanding speech astounds me.

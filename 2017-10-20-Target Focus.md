@@ -2,6 +2,8 @@
 layout: post
 title: Target Focus
 description: Random musings on the future
+tags: 
+    - Opinion
 published: false
 ---
 

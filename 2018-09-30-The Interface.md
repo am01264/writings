@@ -2,6 +2,8 @@
 published: true
 title: The Interface
 description: Dreaming of better technology, and the bitterness of reality as it stands.
+tags: 
+    - Opinion
 ---
 
 There is a frustration that boils in my blood. That frustration is paper.

@@ -2,6 +2,9 @@
 published: true
 title: Weekend Development Fun
 description: I've just spent the better part of this weekend having fun with a new app called Automate
+tags:
+  - Reviews & Highlights
+  - Projects
 ---
 
 I've just spent the better part of this weekend having fun with a new app called ["Automate" for Android](https://play.google.com/store/apps/details?id=com.llamalab.automate). 

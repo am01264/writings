@@ -2,6 +2,8 @@
 published: true
 title: On Failure & Success
 description: An new take on old words
+tags: 
+    - Opinion
 ---
 
 Today, I've opened my eyes to a new way of seeing, that reminds me of the youthful exploration and sense of fun I once enjoyed.

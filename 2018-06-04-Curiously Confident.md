@@ -1,5 +1,7 @@
 ---
 title: The Power of a Curious Confidence
+tags: 
+    - Opinion
 published: true
 ---
 

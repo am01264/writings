@@ -2,6 +2,8 @@
 published: true
 title: The Power of a Tribe
 description: Getting to the root of what it is to be human... or at least a part of it.
+tags: 
+    - Opinion
 ---
 
 We all seek to connect with one another. Some we see as attention seekers, greedily consuming all before us... some we see as shy... and others choose to rebel! All seek to connect whether that's a like rebel, or a quiet friend.

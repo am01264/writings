@@ -2,6 +2,8 @@
 layout: post
 title: A Story Retold
 desciption: Exploring changes of perspective in my own life
+tags:
+    - Opinion
 published: false
 ---
 

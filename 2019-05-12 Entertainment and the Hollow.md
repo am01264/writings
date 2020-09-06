@@ -1,3 +1,10 @@
+---
+title: Entertainment and the Hollow
+tags:
+    - Opinion
+published: false
+---
+
 # Entertainment and the Hollow
 
 Modern titans of the entertainment industry are finally finding out what the human mind desires. They seek neuropsychology, identifying and testing each instinctive response layer by layer deep down into the brain stem.

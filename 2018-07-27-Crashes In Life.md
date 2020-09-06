@@ -2,6 +2,8 @@
 published: true
 title: Crashes In Life
 description: When extreme events bring us back together.
+tags: 
+    - Opinion
 ---
 
 It all started with a conversation with a friendly taxi driver. I'd seen him before in a compact, luxury car and noticed this was quite a bit larger.

@@ -2,6 +2,8 @@
 published: true
 title: When Lips Are Sealed
 description: Speaking about common humanity in inhuman times.
+tags: 
+    - Opinion
 ---
 
 ![Boy with tape over mouth](/res/jackson-simmer-1grn4afhiEE-unsplash.jpg)
