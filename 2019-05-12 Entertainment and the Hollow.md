@@ -2,7 +2,7 @@
 title: Entertainment and the Hollow
 tags:
     - Opinion
-published: false
+published: true
 ---
 
 # Entertainment and the Hollow
