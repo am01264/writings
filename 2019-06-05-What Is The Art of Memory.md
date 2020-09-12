@@ -2,6 +2,7 @@
 title: What Is The Art of Memory?
 tags: 
     - Opinion
+    - Reviews & Highlights
 published: true
 ---
 
