@@ -10,7 +10,7 @@ There is a frustration that boils in my blood. That frustration is paper.
 
 Not that paper itself is frustrating... but that every technology out there fails horribly in comparison to it. 
 
-An example: Paper requires no manual, yet anyone can use it. It doesn't care that you use a red eraser instead of white. It doesn't care that you signed with ink, tears or blood... and it doesn't care that you don't have a hand to type, because you can grip a pen in you teeth if need be. 
+An example: Paper requires no manual, yet anyone can use it. It doesn't care that you use a red eraser instead of white. It doesn't care that you signed with ink, tears or blood... and it doesn't care that you don't have a hand to type, because you can grip a pen in your teeth if need be. 
 
 Paper is a technology, and it's use is fluid and intuitive... but modern technology, with it's computational power and raw strength is like a body-builder who can't stretch down, to pull his pants back up.
 
