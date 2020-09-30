@@ -1,4 +1,12 @@
-# Training and Development
+---
+title: Training and Development
+description: Ideas on an ideal training environment
+tags: 
+    - Opinion
+published: true
+---
+
+# 
 
 The first principle of training is that practice and learning must prepare you for reality. Depending on the stakes and standards involved, this may mean preparing trainees for experiences much worse than they commonly will work with[^1] or prepare them for the standard expected[^2].
 
