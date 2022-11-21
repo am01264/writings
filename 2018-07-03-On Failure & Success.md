@@ -38,7 +38,7 @@ Failure as a concept is finite. Discovery never ends.
 ---
 
 Ideas safely borrowed from these two excellent gentlemen.
-On Success: [Meir Ezra on the Can I Pick Your Brain? podcast](http://www.danielgefen.com/meir-ezra/)
+On Success: [Meir Ezra on the Can I Pick Your Brain? podcast](https://www.danielgefen.com/76-how-to-get-anything-done-by-creating-emergencies-with-meir-ezra/)
 On Failure: [Steve Sims's book "Bluefishing: The Art of Making Things Happen"](http://amzn.eu/jlprUM)
 
 Highly recommended.
