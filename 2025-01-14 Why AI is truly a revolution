@@ -1,0 +1,297 @@
+---
+title: Why A.I. Is Truly A Revolution
+description: 
+tags: 
+    - Opinion
+published: true
+---
+
+I have been an A.I. skeptic for as many years as there has been incredible hype. Having seen random static images be mis-recognised as leopards and other animals, and some major accidents caused by self-driving cars... I understood that A.I. doesn't see the world the way we do.
+
+I saw that as a problem, as I thought people were giving A.I. too much credit on it's good days (which has always been incredible)... and not recognising the ways it misbehaves and falls over (which has received much less press).
+
+The Claude 3.5 Sonnet model from Anthropic has changed my mind. It's not perfect, but it understands some of my computer programs better than I do... and when I say understand, I mean in the very human sense.
+
+Here is an expert-level conversation with this model. I apologise for the technical language... but I wanted to get a taste of it's response. Scroll to the end for the non-technical description.
+
+
+### Andrew:
+I'm having an issue where the Proxy that wraps MessagePassingObject.prototype only ever see's a target object of class MessagePassingObject. 
+
+It doesn't appear to see a subclass of it. What could be causing this, and how is it best fixed?
+
+
+### Claude
+<details>
+<summary>This is a common issue with prototype chains and Proxies. The problem occurs because when you directly assign the Proxy to `MessagePassingObject.prototype`, you're breaking the prototype chain for subclasses. Here's how you can fix this:
+</summary>
+
+Instead of directly replacing the prototype with a Proxy, you should create a Proxy wrapper function that can be used to create new instances with the proxy behavior. Here's the modified version:
+
+```<code redacted>```
+
+The key changes are:
+
+1. Instead of wrapping the prototype, we wrap each instance when it's created
+2. The Proxy is created in the constructor function
+3. We return the proxied instance
+
+This approach has several benefits:
+
+1. It preserves the prototype chain
+2. Each instance gets its own Proxy wrapper
+3. Subclasses will inherit the behavior correctly
+4. The `this` context in methods will refer to the actual instance
+
+You would use it the same way:
+
+```<code redacted>```
+
+This should resolve the issue of not seeing subclass properties in the Proxy handlers while maintaining the desired message-passing behavior.
+</details>
+
+
+### Andrew
+That works perfectly now, thank you.
+
+Can you explain why the Proxy around MessagePassingObject.prototype fails, but Proxying within the constructor does not?
+
+I would've expected the proxied prototype to be called with the subclassed object, but clearly not, feel free to include any parts of the language specification that cover this.
+
+
+
+### Claude
+
+<details>
+<summary>This is a great question about JavaScript's object system internals! Let's break it down.</summary>
+
+When you wrap `MessagePassingObject.prototype` with a Proxy:
+
+```js
+MessagePassingObject.prototype = new Proxy(MessagePassingObject.prototype, {...})
+```
+
+You're essentially breaking the prototype chain because:
+
+1. The Proxy becomes the prototype object itself
+2. The Proxy's target is always the original `MessagePassingObject.prototype`
+3. When methods like `get` or `has` are called on the Proxy, they receive this original target, not the actual instance or its immediate prototype
+
+According to the ECMAScript specification:
+
+- When looking up properties, the JavaScript engine follows the prototype chain using `[[GetPrototypeOf]]` (§9.1.1)
+- The Proxy's handlers receive the target object that was passed during Proxy creation (§9.5)
+- Property lookups on a Proxy don't automatically traverse the prototype chain - that's up to the handler implementation
+
+Here's a diagram showing what happens with a proxied prototype:
+
+```
+SubClass instance
+      ↓
+SubClass.prototype
+      ↓
+Proxy(MessagePassingObject.prototype) <-- Proxy handlers only see this
+```
+
+Whereas with the constructor-level Proxy:
+
+```js
+function MessagePassingObject() {
+    return new Proxy(this, {...})
+}
+```
+
+The Proxy is created with the actual instance as its target, so:
+
+```
+Proxy(SubClass instance) <-- Proxy handlers see the actual instance
+      ↓
+SubClass.prototype
+      ↓
+MessagePassingObject.prototype
+```
+
+From the spec (§9.5.1 Proxy Object Internal Methods):
+```
+[[Get]] (P, Receiver):
+  1. Let handler be O.[[ProxyHandler]].
+  2. If handler is null, throw a TypeError.
+  3. Assert: Type(handler) is Object.
+  4. Let target be O.[[ProxyTarget]].
+  5. Let trap be ? GetMethod(handler, "get").
+  6. If trap is undefined, return ? target.[[Get]](P, Receiver).
+  7. Let trapResult be ? Call(trap, handler, « target, P, Receiver »).
+```
+
+This shows that the Proxy's trap receives the original target, not any objects further up or down the prototype chain.
+
+Here's a small example demonstrating the difference:
+
+```js
+// Prototype proxy approach
+class Base {}
+Base.prototype = new Proxy(Base.prototype, {
+    get(target, prop) {
+        console.log('Target is:', target); // Always Base.prototype
+        return target[prop];
+    }
+});
+
+class Sub extends Base {}
+const instance = new Sub();
+instance.foo; // Target is: Base.prototype
+
+// Constructor proxy approach
+class Base {
+    constructor() {
+        return new Proxy(this, {
+            get(target, prop) {
+                console.log('Target is:', target); // The actual instance
+                return target[prop];
+            }
+        });
+    }
+}
+
+class Sub extends Base {}
+const instance = new Sub();
+instance.foo; // Target is: Sub instance
+```
+
+This is why the constructor-level Proxy works better for your use case - it has access to the actual instance and its full prototype chain, while a prototype-level Proxy is more limited in what it can see and interact with.
+</details>
+
+
+### Andrew
+I really like this answer - it's detailed and precise. How would you break this down for a non-technical audience who are new to programming?
+
+
+
+### Claude
+Here's a non-technical explanation:
+
+Imagine you're setting up a mail forwarding system in an office building. There are two ways you could do it:
+
+1. **The Prototype Approach** (the one that didn't work)
+   - You put one mail clerk at the main entrance of the building
+   - They can only see mail addressed to "The Building" in general
+   - They don't know which specific office the mail should go to
+   - Any special instructions for specific offices get lost
+
+2. **The Constructor Approach** (the one that works)
+   - Each office gets their own mail clerk
+   - The clerk knows exactly which office they work for
+   - They can handle specific instructions for their office
+   - They can still check with the building's general mail rules when needed
+
+In programming terms:
+- The offices are like our different objects (instances)
+- The mail clerks are like our Proxies (handlers)
+- The mail forwarding rules are like our property lookups
+- The building's general rules are like our prototype methods
+
+So when we put the Proxy at the prototype level (the building entrance), it loses track of which specific office (object) made the request. But when we put a Proxy in each constructor (giving each office its own clerk), it knows exactly who it's working for and can handle requests properly.
+
+That's why moving the Proxy from the building entrance to individual offices fixed the problem - each office gets personalized service while still following the building's general rules.
+
+
+---
+...and now, back to me again. So it has
+
+1. demonstrated expert-level knowledge on a topic rarely discussed on the internet (more than 95% of programmers using this language will not know)
+
+2. has been able to translate that into a metaphor, which a non-technical audience can read and follow
+
+   * There is still some computer-related jargon in there, but given hours or days, I could not make it simpler.
+
+3. fixed an issue that would've only been solved by me reading an 816-page language specification... in less than 3-minutes.
+
+4. ...and then taught me what made the difference and improved *my* understanding.
+
+I acknowledge they are not always perfect tools... but this is another printing press situation. Technology will be moving faster than people can understand... I hope these tools may pave the way to keep people at the same pace.
+
+It is the next evolution of Vannever Bush's Memex [As We May Think](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/). That was written July 1945.
+
+But the faster the world moves, the more important it is to spend time standing still. I think we'll all find something zen in this.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
